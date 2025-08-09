@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Full Moon House Finder · 2025</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="wrap">
+    <h1>Full Moon House Finder · 2025</h1>
+    <p class="sub">Instantly see which **house** the Full Moon activates for your Rising sign. Toggle **Sidereal ↔ Tropical** and expand for **nakshatra** + numerology notes.</p>
+  </header>
+
+  <main class="wrap card">
+    <section class="controls">
+      <div class="control">
+        <label class="label">System</label>
+        <div class="toggle">
+          <input type="radio" name="system" id="sys-tropical" value="tropical" checked>
+          <label for="sys-tropical">Tropical</label>
+          <input type="radio" name="system" id="sys-sidereal" value="sidereal">
+          <label for="sys-sidereal">Sidereal</label>
+        </div>
+      </div>
+
+      <div class="control">
+        <label for="rising" class="label">Rising Sign</label>
+        <select id="rising" class="select"></select>
+      </div>
+
+      <div class="control">
+        <label for="fm-date" class="label">Full Moon (2025)</label>
+        <select id="fm-date" class="select"></select>
+      </div>
+    </section>
+
+    <section id="output" class="output hidden">
+      <div class="result-head">
+        <div>
+          <h2 id="house-title">House —</h2>
+          <p id="sign-line" class="muted"></p>
+        </div>
+        <button id="more-btn" class="button" aria-expanded="false">More info</button>
+      </div>
+      <p id="house-meaning" class="meaning"></p>
+
+      <div id="more-panel" class="more hidden" role="region" aria-live="polite">
+        <div id="sidereal-only" class="sidereal-only hidden">
+          <h3 class="h3">Nakshatra</h3>
+          <p id="nakshatra-line"></p>
+          <details>
+            <summary class="muted">Nakshatra meaning</summary>
+            <p id="nakshatra-meaning" class="meaning"></p>
+          </details>
+        </div>
+        <div class="extras">
+          <h3 class="h3">Extras</h3>
+          <ul class="bullets" id="extras-list"></ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="wrap foot">
+    <small>2025 data source: tropical degrees from reputable ephemerides. Nakshatra derived using Lahiri ayanāṃśa. Built for teaching purposes.</small>
+  </footer>
+
+  <script src="app.js" type="module"></script>
+</body>
+</html>
