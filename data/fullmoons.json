@@ -1,0 +1,14 @@
+[
+  { "date": "2025-01-13", "tropical": { "sign": "Cancer",     "degree": 23.98, "time": "14:26 PT" } },
+  { "date": "2025-02-12", "tropical": { "sign": "Leo",        "degree": 24.10, "time": "05:53 PT" } },
+  { "date": "2025-03-13", "tropical": { "sign": "Virgo",      "degree": 23.93, "time": "23:54 PT" } },
+  { "date": "2025-04-12", "tropical": { "sign": "Libra",      "degree": 23.33, "time": "17:22 PT" } },
+  { "date": "2025-05-12", "tropical": { "sign": "Scorpio",    "degree": 22.20, "time": "09:55 PT" } },
+  { "date": "2025-06-11", "tropical": { "sign": "Sagittarius", "degree": 20.65, "time": "00:43 PT" } },
+  { "date": "2025-07-10", "tropical": { "sign": "Capricorn",  "degree": 18.83, "time": "13:36 PT" } },
+  { "date": "2025-08-09", "tropical": { "sign": "Aquarius",   "degree": 16.98, "time": "00:55 PT" } },
+  { "date": "2025-09-07", "tropical": { "sign": "Pisces",     "degree": 15.37, "time": "11:08 PT" } },
+  { "date": "2025-10-06", "tropical": { "sign": "Aries",      "degree": 14.13, "time": "20:47 PT" } },
+  { "date": "2025-11-05", "tropical": { "sign": "Taurus",     "degree": 13.37, "time": "05:19 PT" } },
+  { "date": "2025-12-04", "tropical": { "sign": "Gemini",     "degree": 13.05, "time": "15:14 PT" } }
+]
